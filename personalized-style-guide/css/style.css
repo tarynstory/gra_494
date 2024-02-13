@@ -22,12 +22,12 @@
 
     a:hover {
         transition: all .3s ease-out;
-        color: rgb(30, 127, 255);
+        color:pink;
     }
 
     .button a:hover {
             transition: all .3s ease-out;
-            color: black;
+            color: pink;
     }
 }
 
@@ -40,6 +40,13 @@ li {
     gap: 1rem;
     text-transform: uppercase;
     padding-right: 1rem;
+}
+
+p {
+    font-family: circe regular;
+}
+h2 {
+    font-family: circe bold;
 }
 
 /* Top Navigation END */
