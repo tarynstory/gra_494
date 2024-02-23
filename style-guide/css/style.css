@@ -20,6 +20,9 @@ h1,h2,h3 {
 h2 {
 	font-size: 1.3em;
 }
+h3 {
+	font-size: 1em;
+}
 a {
 	font-weight: bold;
 	color: #EDEDED;
@@ -50,12 +53,26 @@ section.main {
     margin-bottom: 5rem;
 	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
+section.subSection {
+    background-color: #00a1e0;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.orgheader {
+	text-align: center;
+	color: #22262a;
+}
+.two-column-div {
+	display: inline-block;
+	columns: 2;
+   }
 p.copyright {
 	margin: 0 auto;
 	margin-bottom: 0.5em;
     text-align: center;
     color: #333333;
 }
+
 
 /* Breakpoint */
 @media screen and (max-width: 700px) {
