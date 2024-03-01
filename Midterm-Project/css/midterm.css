@@ -42,6 +42,7 @@ h2 {
 
 p {
     line-height: 1.75;
+    color:#111111;
 }
 
 a {
@@ -118,7 +119,7 @@ button {
     align-items: center;
     padding: 12px 28px;
     transition: color .25s ease, .25s ease;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 1.2px;
     font-size: 16px;
     line-height: 1.5;
@@ -131,6 +132,29 @@ button:hover {
 	background-color: #111111;
     border: 1px solid white;
     color:white;
+
+}
+button.callout {
+    font-weight: 400;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    transition: color .25s ease, .25s ease;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #111111;
+    border: 1px solid #111111;
+    cursor: pointer;
+}
+
+button:hover.callout {
+	background-color: white;
+    border: 1px solid white;
+    color:#111111;
 
 }
 
@@ -308,11 +332,10 @@ div {
 
 .callout {
     margin: auto;
-    border:rgb(152, 163, 255) 1px solid;
-    border-radius: 20px;
     max-width: 900px;
     padding: 2rem 3rem;
-    background-color: rgb(42, 51, 113);
+    background-color: white;
+    opacity: 85%;
     transform: translate(-50%, 10%);
     position: absolute;
     top: 57%;
@@ -324,6 +347,7 @@ div {
     align-items: center;
     align-content: center;
 }
+
 
 .callout button {
     margin: 2rem 2rem 1rem 2rem;
@@ -344,6 +368,7 @@ div {
 
 .section-h2 {
     text-align: center;
+    color: #111111;
 }
 
 figure h2 {
@@ -384,8 +409,8 @@ figure button {
 
 
 .description {
-    font-family: Poppins, sans-serif;
-    color: rgb(152, 163, 255);
+    font-family: roboto;
+    color: #111111;
 }
 
 
@@ -672,14 +697,14 @@ p.copyright {
     .hero {
         height: 750px;
         margin-bottom: 1rem;
-        margin-top: 1rem;
     }
 
     .hero img {
         max-width: 1000px;
         justify-content: right;
         align-items: right;
-        float: right;        
+        float: right;
+        padding: 50px 100px 20px 0px;
         border-radius: 0;
     }
 
@@ -714,7 +739,7 @@ p.copyright {
     }
 
     .full-img {
-        margin-bottom: 12rem;
+        margin-bottom: 11rem;
     }
 
     #hightlight-2 {
