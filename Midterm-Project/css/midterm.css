@@ -119,7 +119,7 @@ button {
 }
 
 button:hover {
-	background-color: purple;
+	background-color: #111111;
     border: 1px solid white;
     color:white;
 
@@ -319,7 +319,7 @@ figure h2 {
 figure {
     padding: 2rem 1.5rem;
     margin: 3rem 1rem;
-    background-color: white;
+    background-color: gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -330,7 +330,7 @@ figure:hover {
     cursor: pointer;
     transform: scale(1.06);
     transition: all .3s ease-in-out;
-    background-color: rgba(72, 87, 225, 0.4);
+    background-color: WHITE;
     /*box-shadow: 0 0 20px 5px #4a38d0;*/
 }
 
