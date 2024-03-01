@@ -12,8 +12,7 @@ body {
 	letter-spacing: 0.05em;
 	font-size: 16px;
 	background-color: white;
-	color: #d8dee9;
-    box-sizing: border-box;
+	color: #111111
 }
 
 nav ul {
@@ -62,27 +61,18 @@ a:hover {
 
 .nav-logo {
     display: block;
-    width: 200px;
-    height: 58px;
-    padding: 1rem;
+    width: 150px;
+    height: 45px;
+    padding: 1rem 0.5rem 0.5rem 1rem;
 }
 
 
-
-
-
-
-
-
-
 header {
-    margin: 0 auto;
     position: relative;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0.5rem 0.5rem 1rem;
     background-color: #111111;
 }
 
@@ -108,7 +98,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(16, 203, 119);
+    color: white;
 }
 
 button {
@@ -129,32 +119,9 @@ button {
 }
 
 button:hover {
-	background-color: #111111;
+	background-color: purple;
     border: 1px solid white;
     color:white;
-
-}
-button.callout {
-    font-weight: 400;
-    color: white;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 28px;
-    transition: color .25s ease, .25s ease;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #111111;
-    border: 1px solid #111111;
-    cursor: pointer;
-}
-
-button:hover.callout {
-	background-color: white;
-    border: 1px solid white;
-    color:#111111;
 
 }
 
@@ -232,7 +199,6 @@ code, pre {
 
 img {
 	width: 100%;
-	height: auto;
 }
 
 div {
@@ -258,20 +224,12 @@ div {
 }
 
 .personalized-subSection .input {
-    font-family: Poppins, sans-serif;
-    text-transform: lowercase;
+    font-family: Roboto;
     font-size: 14px;
     border: 1px solid transparent;
     border-radius: 40px;
     margin-right: .5rem;
 }
-
-.email-entry {
-    padding: 0;
-    margin: 0;
-    gap: 0;
-}
-
 
 
 .h2-gallery {
@@ -320,43 +278,26 @@ div {
 
 .lightbox img {
     transition: all .3s ease-in-out;
-    border-radius: 35px;
-    opacity: 0.7;
 }
 
 
 .introduction {
     position: relative;
-    overflow: visible;
 }
 
 .callout {
-    margin: auto;
     max-width: 900px;
     padding: 2rem 3rem;
     background-color: white;
     opacity: 85%;
-    transform: translate(-50%, 10%);
     position: absolute;
     top: 57%;
     left: 50%;
-    padding: 20px;
-    resize: both;
-    overflow: auto;
+
     text-align: center;
     align-items: center;
     align-content: center;
 }
-
-
-.callout button {
-    margin: 2rem 2rem 1rem 2rem;
-}
-
-
-
-
-
 
 
 .grid {
@@ -376,11 +317,9 @@ figure h2 {
 }
 
 figure {
-    border:rgb(152, 163, 255) 1px solid;
-    border-radius: 20px;
     padding: 2rem 1.5rem;
     margin: 3rem 1rem;
-    background-color: rgba(72, 87, 225, 0.1);
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -535,14 +474,18 @@ a.lightbox-close:after {
     top: 0;
 }
 
-
+.full-img {
+    padding: 0;
+}
 
 .highlight {
-    padding: 4rem 5rem;
+    padding: 7rem 5rem;
+    margin-bottom: 0%;
 }
 
 #highlight-1 {
-    margin-top: 40rem;
+    background-color: #FFC1AC;
+    margin: 0;
 }
 
 
@@ -567,27 +510,22 @@ a.lightbox-close:after {
 
 footer {
     display: flex;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    background-color: #111111;
+    PADDING: 1REM;
+    color: #EDEDED;
 }
 
-.footlinks h3 {
-    display: inline;
-    padding-left: 1rem;
-    font-weight: 200;
+.footlinks p {
+    padding:1rem;
+    font-family: "Roboto";
     font-size: 12pt;
     line-height: 2;
     margin: 0;
+    color: white;
 }
-
-.footlinks {
-    padding-top: 2rem;
-}
-
-footer img {
-    margin-bottom: 2rem;
-    margin-top: 0;
-    padding: 0;
+.footlinks li {
+    list-style: none;
+    display: inline;
 }
 
 p.copyright {
@@ -669,7 +607,7 @@ p.copyright {
         text-align: left;
         margin: 20rem 5rem 11rem 5rem;
         color: #111111;
-        font-size: 60px;
+        font-size: 55px;
         line-height: 1.2;
         max-width: 950px;
     }
@@ -700,11 +638,11 @@ p.copyright {
     }
 
     .hero img {
-        max-width: 1000px;
+        max-width: 800px;
         justify-content: right;
         align-items: right;
         float: right;
-        padding: 50px 100px 20px 0px;
+        padding: 6rem 1rem 1rem 1rem;
         border-radius: 0;
     }
 
@@ -736,10 +674,6 @@ p.copyright {
 
     .highlight p {
         padding-right: 2rem;
-    }
-
-    .full-img {
-        margin-bottom: 11rem;
     }
 
     #hightlight-2 {
