@@ -1,0 +1,731 @@
+/* Default */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	font-size: 16px;
+	background-color: white;
+	color: #d8dee9;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.open {
+    max-height: 100vh;
+}
+
+h1 {
+	justify-content: left;
+    text-align: left;
+    margin: 10rem 5rem 11rem 5rem;
+    color: #111111;
+    font-size: 40px;
+    line-height: 1.2;
+    max-width: 950px;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.8em;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.75;
+}
+
+a {
+	color: #EDEDED;
+	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    text-decoration: none;
+}
+a:hover {
+	color: white;
+    border-bottom: white 1px solid;
+}
+
+.gallery-element a:hover {
+    color: #ededed;
+    text-decoration: underline;
+}
+
+.nav-logo {
+    display: block;
+    width: 200px;
+    height: 58px;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+header {
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    background-color: #111111;
+}
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 400;
+}
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none; 
+    padding: .75rem;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: rgb(16, 203, 119);
+}
+
+button {
+    font-weight: 400;
+    color: #111111;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    transition: color .25s ease, .25s ease;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #111111;
+    border: 1px solid white;
+    color:white;
+
+}
+
+.hero {
+    height: 500px;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu-button {
+    background-color: #111111;
+    border: 1px solid transparent;
+    padding: 2rem 2rem 1rem 0rem;
+    line-height: 0;
+}
+
+.menu-button:hover {
+    background-color: #111111;
+    color: white;
+    border: 1px solid transparent;
+    padding: 2rem 2rem 1rem 0rem;
+    line-height: 0;
+}
+
+.menu-close {
+    background-color: #13172b;
+    border: 1px solid transparent;
+    padding: 2rem 2rem 1rem 0rem;
+    line-height: 0;
+    display: block;
+    font-size: 30px;
+    padding: 0 1rem 1rem 0;
+    color: white;
+}
+
+.fa-bars {
+    font-size: 30px;
+    padding: 0 1rem 1rem 0;
+    color: white;
+    
+}
+
+
+.intro {
+    /* bottom: 0;*/
+    /* left: 0;*/
+    padding: 1rem;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+code, pre {
+	background-color: #22262a;
+	color: #EDEDED;
+	border-radius: 4px;
+	padding: 0 0.25em;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+div {
+    display: block;
+}
+
+.input {
+    font-family: Futura PT,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.44px;
+    font-weight: 400;
+    line-height: 1.85;
+    background: #fff;
+    color: #010101;
+    border: 1px solid black;
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    padding: 16px 32px 16px 32px;
+    width: 300px;
+    transition: color .25s ease, .25s ease;
+    text-transform: uppercase;
+}
+
+.personalized-subSection .input {
+    font-family: Poppins, sans-serif;
+    text-transform: lowercase;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin-right: .5rem;
+}
+
+.email-entry {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+
+
+.h2-gallery {
+    font-size: 14px;
+    letter-spacing: 1.44px;
+    font-weight: 400;
+    line-height: 1.85;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.personalized-subSection .h2-gallery {
+    font-size: 20px;
+    color: white;
+}
+
+.organism-wrapper h2 {
+    font-family: Futura PT,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.44px;
+    font-weight: 400;
+    line-height: 1.85;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+.gallery-element {
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    padding: 5 rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.lightbox img:hover {
+    transform: scale(1.06);
+    transition: all .3s ease-in-out;
+    opacity: 1.0;
+}
+
+.lightbox img {
+    transition: all .3s ease-in-out;
+    border-radius: 35px;
+    opacity: 0.7;
+}
+
+
+.introduction {
+    position: relative;
+    overflow: visible;
+}
+
+.callout {
+    margin: auto;
+    border:rgb(152, 163, 255) 1px solid;
+    border-radius: 20px;
+    max-width: 900px;
+    padding: 2rem 3rem;
+    background-color: rgb(42, 51, 113);
+    transform: translate(-50%, 10%);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.callout button {
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+
+
+
+
+
+
+.grid {
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.section-h2 {
+    text-align: center;
+}
+
+figure h2 {
+    margin-top: 0;
+}
+
+figure {
+    border:rgb(152, 163, 255) 1px solid;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    margin: 3rem 1rem;
+    background-color: rgba(72, 87, 225, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+figure:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all .3s ease-in-out;
+    background-color: rgba(72, 87, 225, 0.4);
+    /*box-shadow: 0 0 20px 5px #4a38d0;*/
+}
+
+figure button {
+    margin-top: 1rem;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+.description {
+    font-family: Poppins, sans-serif;
+    color: rgb(152, 163, 255);
+}
+
+
+
+/* Video Lightbox */
+
+iframe {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    align-items: center;
+    margin-top: 18vh;
+    cursor: pointer;
+}
+
+.video-lightbox a:hover {
+    border-bottom: white 0px solid;
+}
+
+.video-lightbox {
+    text-align: center;
+
+}
+    
+.lightbox-target {
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+     
+}
+    
+.lightbox-target img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    max-height: 0%;
+    max-width: 0%;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+   
+}
+
+a.lightbox-close {
+    display: block;
+    width:50px;
+    height:50px;
+    box-sizing: border-box;
+    background: rgb(249, 64, 17);
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    margin: 2rem;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 2;
+}
+    
+    /* Provides part of the "X" to eliminate an image from the close link */
+    
+a.lightbox-close:before {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 2px;
+    background: black;
+    position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+    
+a.lightbox-close:after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 2px;
+    background: black;
+    position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+ }
+    
+ .lightbox-target:target {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    overflow:hidden;
+}
+    
+.lightbox-target:target img {
+    max-height: 100%;
+    max-width: 100%;
+ }
+    
+ .lightbox-target:target a.lightbox-close {
+    top: 0;
+}
+
+
+
+.highlight {
+    padding: 4rem 5rem;
+}
+
+#highlight-1 {
+    margin-top: 40rem;
+}
+
+
+#highlight-2 {
+    padding: 3rem;
+}
+
+#highlight-2 h2 {
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 0;
+}
+
+#highlight-2 p {
+    padding: 2rem 2rem 0rem 0rem;
+    margin: 0;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footlinks h3 {
+    display: inline;
+    padding-left: 1rem;
+    font-weight: 200;
+    font-size: 12pt;
+    line-height: 2;
+    margin: 0;
+}
+
+.footlinks {
+    padding-top: 2rem;
+}
+
+footer img {
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+p.copyright {
+	margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 12pt;
+    line-height: 1;
+    padding-top: 2rem;
+}
+
+
+
+/* Breakpoint */
+@media screen and (min-width: 600px) {
+
+    #highlight-1 {
+        margin-top: 28rem;
+    }
+
+}
+
+
+
+/* Breakpoint */
+@media screen and (min-width: 800px) {
+
+    h1 {
+        font-size: 48px;
+        max-width: 500px;
+    }
+    
+    .grid-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-inner figure {
+        margin: 1rem;
+    }
+
+    #highlight-1 {
+        margin-top: 12rem;
+    }
+
+    #highlight-2 img {
+        padding: 1rem;
+    }
+    
+    #highlight-2 h2 {
+        padding: 0rem 2rem;
+        margin-top: 0;
+    }
+    
+    #highlight-2 p {
+        padding: 2rem 2rem;
+    }
+
+    .callout {
+        min-width: 600px;
+        resize: both;
+        margin: 0;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* Breakpoint */
+@media screen and (min-width: 1100px) {
+	section.main {
+		margin: 5rem 2rem;
+	}
+
+    h1 {
+        justify-content: left;
+        text-align: left;
+        margin: 20rem 5rem 11rem 5rem;
+        color: rgb(255, 255, 255);
+        background-color: rgba(12, 4, 44, 0.7);
+        font-size: 60px;
+        line-height: 1.2;
+        max-width: 950px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .menu-close {
+        display: none;
+    }
+
+    nav {
+        display: block !important;
+        max-height: 200px;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 1rem 0rem 0rem;
+    }
+
+    .hero {
+        height: 750px;
+        margin-bottom: 1rem;
+    }
+
+    .hero img {
+        max-width: 1000px;
+        justify-content: right;
+        align-items: right;
+        float: right;
+        padding: 50px 100px 20px 0px;
+        border-radius: 0;
+    }
+
+    .menu-wrapper li {
+        padding: 1rem;
+    }
+
+    .callout {
+        transform: translate(-50%, 00%);
+    }
+
+    .grid-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .highlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #highlight-1 {
+        margin-top: 0rem;
+    }
+
+    .highlight h2 {
+        margin-top: 5rem;
+    }
+
+    .highlight p {
+        padding-right: 2rem;
+    }
+
+    .full-img {
+        margin-bottom: 12rem;
+    }
+
+    #hightlight-2 {
+        gap: 2rem;
+    }
+
+    #highlight-2 .video-lightbox {
+        padding-right: 2rem;
+        padding-left: 0;
+    }
+
+    
+}
